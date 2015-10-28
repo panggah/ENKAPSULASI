@@ -1,0 +1,8 @@
+# ENKAPSULASI
+SegitigaEnkapsulasi se = new SegitigaEnkapsulasi();
+    double als = Double.parseDouble(jTextField1.getText());
+    se.setAls(als);
+    double ting = Double.parseDouble(jTextField2.getText());
+    se.setTing(ting);
+    se.setLuas1();
+    jLabel3.setText(""+se.getLuas1());
