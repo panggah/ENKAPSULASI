@@ -1,0 +1,11 @@
+# ENKAPSULASI
+
+Getter a = new Getter();
+   int pj = Integer.parseInt(jTextField1.getText());
+   a.setPanjang(pj);
+  
+   int lb = Integer.parseInt(jTextField2.getText());
+   a.setLebar(lb);
+   a.setLuas();
+   jLabel3.setText(""+a.getLuas());
+   
