@@ -1,0 +1,17 @@
+# ENKAPSULASI
+
+public class Getter {
+     int luas,panjang,lebar;
+     public void setLuas(){
+         luas = panjang*lebar;
+     }
+    public int getLuas() {
+        return luas;
+    }
+    public void setPanjang(int pj) {
+        this.panjang = pj;
+    }
+    public void setLebar(int lb) {
+        this.lebar = lb;
+    }
+}
