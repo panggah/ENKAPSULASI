@@ -1,0 +1,19 @@
+# ENKAPSULASI
+
+public class SegitigaEnkapsulasi {
+    double luas1,als,ting;
+
+    public double getLuas1() {
+        return luas1;
+    }
+    public void setLuas1() {
+       luas1=(ting*als)/2;
+    }
+    public void setAls(double als) {
+        this.als = als;
+    }
+    public void setTing(double ting) {
+        this.ting = ting;
+    }
+    
+}
